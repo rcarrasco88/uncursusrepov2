@@ -1,0 +1,161 @@
+Package: com.yaya4.repokeyring
+Architecture: iphoneos-arm
+Version: 2020.08.20
+Section: Utilities
+Maintainer: Yaya4
+Filename: pool/main/iphoneos-arm64/Yaya4Keyring.deb
+Size: 2488
+MD5sum: 8ee6806987215a93dfecf13b5c3afd13
+SHA1: c2cb262d0ea764a0341d51226bf24188d3eb0c23
+SHA256: 4bba9a0471c1593d9730a3c577f8771fc9bc66c61e8ab0e55ce2e97342eaed72
+SHA512: bc5d138ffe71ddd3852fe089ad8514b4dc69b86ed43baa2a672fe14e6a2123f5c1cfad25ff9a3d49a4fcd833a3bb761d321eb3c31e720b107f8afca75005097a
+Description: Yaya4's Repo KeyRing
+Name: Yaya4 Repo Keyring
+Author: Yaya4
+
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 1.1-2
+Priority: optional
+Section: Tweaks
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Provides: us.diatr.sileorespring (=1.1)
+Depends: mobilesubstrate (>= 0.9.3667+38)
+Conflicts: us.diatr.sileorespring
+Replaces: us.diatr.sileorespring
+Filename: pool/main/iphoneos-arm64/com.saurik.substrate.safemode.deb
+Size: 20376
+MD5sum: dd061cea46f41f6ccef41fec07b3765e
+SHA1: 24478dcb9a92053d8094f1c33d152602619c653b
+SHA256: 771b20f4a6e3292e18ff65eeb01a0071ad366f4b748bebfbafcf97ab754a259f
+SHA512: 2cb37de959a77545d9955862db0e021f8f17be8fa7703c5db6b33a010427e6d92ee13afc73787d6f2a48730c2aea58d3e41a73a3ef7bc4283e09f7ac7b3febc5
+Description: Sileo Safe Mode for checkrain/substrate
+Name: Sileo Safe Mode (checkrain/substrate)
+
+Package: coreutils-bin
+Architecture: iphoneos-arm
+Version: 2:2
+Priority: required
+Section: Utilities
+Maintainer: Yaya4
+Installed-Size: 7320
+Depends: essential-dummy
+Filename: pool/main/iphoneos-arm64/coreutils-bin_2:2_iphoneos-arm.deb
+Size: 864
+MD5sum: 8e9712e559c8ceb417359d08ea72c070
+SHA1: ea678cfd301ec023ce136ae47db6b7569f3d963b
+SHA256: a9b000f147380cebe4a9848079b787f563fe6025061ce492ff5cda45974e9e43
+SHA512: 4e5e96ddf0cb00f2409cb40437b656d5681e80d2f6672dbaea247b3833584f1b90054d9b73f5e16ad41413cd4908a26f86922f00c5699519e9e37c24db273c70
+Homepage: http://www.gnu.org/software/coreutils/
+Description: Dummy From Bingner Coreutils-Bin
+Name: Core Utilities (/bin) (Dummy)
+
+Package: essential-dummy
+Architecture: iphoneos-arm
+Version: 1.0-12
+Priority: required
+Essential: yes
+Section: Essential
+Maintainer: Yaya4
+Installed-Size: 0
+Depends: coreutils-bin (>= 1:0), xz (>= 1:0), libssl1.0 (>= 1:0), ncurses5-libs (>= 1:0), lzma
+Filename: pool/main/iphoneos-arm64/essential-dummy_1.0-12_iphoneos-arm.deb
+Size: 840
+MD5sum: bd4583d376a87c3b7a1092d308027788
+SHA1: e245e0a5ef3a45c2efdeecb926d6dda1dfb08ad1
+SHA256: 80b9c8826cf84c38b6f925d59cb3c040281f5b878712aa1f4dd5071f25f41b71
+SHA512: 0d709dc2fef2e69d6663e20c49bd5a1dbb83ceb265133a6972a907041ded9685974a9585588804d6df08a73362e3baf3575848865877a87c8f35b2cdd71c4031
+Description: Represents all dummy packages.
+Name: Essential Dummy
+
+Package: libssl1.0
+Architecture: iphoneos-arm
+Version: 1:2
+Priority: standard
+Section: Security
+Maintainer: Yaya4
+Installed-Size: 3
+Depends: essential-dummy
+Filename: pool/main/iphoneos-arm64/libssl1.0_1:2_iphoneos-arm.deb
+Size: 836
+MD5sum: 49126bd3b4483e59c0c325147fd8543b
+SHA1: 5132e0aceed5266c2dc0f6f0e9e41f99164c4e5c
+SHA256: 8035baa2b6442c0f593095695c1a8934232068fa6da306879b676fdbb71cb705
+SHA512: cfec4e2300694050df0240cd0628789ef7d3745509f2c4b0bd7f6b93e645b0b077a8f3958f6d3028dd1fc27567506905e9a18b22b7b87690e3e8be8f729f338c
+Description: OpenSSL 1.0.2 Bingner Dummy To Bypass u0 Bootstrap Verificarion ;)
+Name: OpenSSL (1.O.2 Dummy)
+
+Package: lzma
+Architecture: iphoneos-arm
+Version: 5:4
+Section: Archiving
+Maintainer: Yaya4
+Installed-Size: 804
+Depends: essential-dummy
+Filename: pool/main/iphoneos-arm64/lzma_5_4_iphoneos-arm.deb
+Size: 796
+MD5sum: 1dd815b736c4f17c870e860ed6543844
+SHA1: c0bdbdd5ac8022dce4a75b40c57b3ca0a4b5228d
+SHA256: 80f93c7c8b14979e1104c12ee8692f634e5ee4099bcd3281fe400102063d0426
+SHA512: 8a8ff78ed98ab054ad35909a540e023f0d5b14bf7fde7418747d7216b5b727ea7ad969c5703a13b01bfc6cd81ea2f8acc2a7a252870f101e73dd894b87ba1e09
+Description: Dummy Package Of Bingner LZMA
+Name: LZMA Utils (Dummy)
+
+Package: ncurses5-libs
+Architecture: iphoneos-arm
+Version: 1:2
+Priority: required
+Section: System
+Maintainer: Yaya4
+Installed-Size: 2288
+Depends: essential-dummy
+Filename: pool/main/iphoneos-arm64/ncurses5-libs_1:2_iphoneos-arm.deb
+Size: 824
+MD5sum: 021bfa5470ea0372d68c21986bab7038
+SHA1: 8231aac1fed80f6e8747390017ffd1d21019a33f
+SHA256: 0b709c57370b3ea443ed75fd7fb606371d7f162869e1eb57a0c45c9da1506397
+SHA512: e5a0f8393ce2bbb227390ec62822c7c4977351a7a776995cb3ed53293afaa14a176e7de506c2405b922092203e66f049b7f8af4a5a405be1678fc63846d9e367
+Description: New Curses 5 Dummy From Bingner
+Name: New Curses 5 (Dummy)
+
+Package: xz
+Architecture: iphoneos-arm
+Version: 2:2
+Priority: required
+Essential: yes
+Section: Archiving
+Maintainer: Yaya4
+Installed-Size: 812
+Depends: essential-dummy
+Filename: pool/main/iphoneos-arm64/xz_2:2_iphoneos-arm.deb
+Size: 832
+MD5sum: 2d4a746934dfa6755b8c43d0878441d7
+SHA1: 131ca8d7a8fe6a4895eac58a71128ae8760ec1d0
+SHA256: 4a3005b1293de7cc5b515b46da1057bc6530fabbe8cc59f03e0132127429cb05
+SHA512: fdef0735dcb51a13ca930bfbbf8366030843c1e141650e678f9a1cbde2cb8101b0709901fb00c22faa4bcdaa05abf158b6cda7eae0c9159adda93ee21f1bd431
+Homepage: http://tukaani.org/lzma/
+Description: Dummy Pacakge
+Name: XZ (Dummy)
+
+Package: com.ex.substitute
+Architecture: iphoneos-arm
+Version: 0.1.15
+Priority: optional
+Section: System
+Maintainer: Sam Bingner
+Installed-Size: 4768
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode, uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Filename: https://apt.bingner.com/debs/1443.00/./com.ex.substitute_0.1.15_iphoneos-arm.deb
+Size: 1177256
+MD5sum: 9d4adc7fc77869f683f3c2b4f938efb6
+SHA1: cf5edde0358d5a79b4d3c43aba28304782254ae2
+SHA256: c0765ceff693b99ecb3f6dc4e30647ec990a67a4043e10d8093a7549a800f63c
+SHA512: fa0f57e89ce8d5f05b3f84fe3e478d81a3427163f574264aea3fd8936397095f0f83a7bc6bf916ea9f9ff4237fdf11b67fda7c1776fa31941ad49bf06c2ea648
+Description: Substrate substitute for code substitution
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
