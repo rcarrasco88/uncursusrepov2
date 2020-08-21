@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Updateting Repo..."
+echo "Updating Repo..."
 
 echo "Cleaning Up Previous Build..."
 rm -rf dists
@@ -45,7 +45,7 @@ for dist in iphoneos-arm64/uncursus; do
     
     gpg -abs -u 8A61B55ECE513045A1787EAEC07D48D85553E909 -o dists/${dist}/Release.gpg dists/${dist}/Release
     
-    echo "Cleaning Up Unsed Files..."
+    echo "Cleaning Up Unused Files..."
 
     rm -rf tmpbingner
 
