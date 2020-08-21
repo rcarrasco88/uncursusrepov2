@@ -1,3 +1,21 @@
+Package: essential-dummy
+Architecture: iphoneos-arm
+Version: 1.0-15
+Priority: required
+Essential: yes
+Section: Essential
+Maintainer: Yaya4
+Installed-Size: 0
+Depends: coreutils-bin (>= 1:0), xz (>= 1:0), libssl1.0 (>= 1:0), ncurses5-libs (>= 1:0), lzma, com.yaya4.repokeyring
+Filename: pool/main/iphoneos-arm64/Essential-Dummy.deb
+Size: 800
+MD5sum: 040e035e9a3f9f4c1be6d9d2a7458c3d
+SHA1: aa3a2d1126de8ac7d4483d2354010d6e155079c7
+SHA256: 9cd06000896c29cd4412cbb100ea2abb6b3fbbed65cb8371e99c4a38b303e0d5
+SHA512: bed98bf982cb96b9b6ca95df2dc34fb1030c19b3c52ed83226499f125a2628a2fd1e284c54b591018869bb6af88282ca41475b96f49a5b18e3926ef12b1c9998
+Description: Represents all dummy packages.
+Name: Essential Dummy
+
 Package: com.yaya4.repokeyring
 Architecture: iphoneos-arm
 Version: 2020.08.20
@@ -49,24 +67,6 @@ SHA512: 4e5e96ddf0cb00f2409cb40437b656d5681e80d2f6672dbaea247b3833584f1b90054d9b
 Homepage: http://www.gnu.org/software/coreutils/
 Description: Dummy From Bingner Coreutils-Bin
 Name: Core Utilities (/bin) (Dummy)
-
-Package: essential-dummy
-Architecture: iphoneos-arm
-Version: 1.0-12
-Priority: required
-Essential: yes
-Section: Essential
-Maintainer: Yaya4
-Installed-Size: 0
-Depends: coreutils-bin (>= 1:0), xz (>= 1:0), libssl1.0 (>= 1:0), ncurses5-libs (>= 1:0), lzma
-Filename: pool/main/iphoneos-arm64/essential-dummy_1.0-12_iphoneos-arm.deb
-Size: 840
-MD5sum: bd4583d376a87c3b7a1092d308027788
-SHA1: e245e0a5ef3a45c2efdeecb926d6dda1dfb08ad1
-SHA256: 80b9c8826cf84c38b6f925d59cb3c040281f5b878712aa1f4dd5071f25f41b71
-SHA512: 0d709dc2fef2e69d6663e20c49bd5a1dbb83ceb265133a6972a907041ded9685974a9585588804d6df08a73362e3baf3575848865877a87c8f35b2cdd71c4031
-Description: Represents all dummy packages.
-Name: Essential Dummy
 
 Package: libssl1.0
 Architecture: iphoneos-arm
