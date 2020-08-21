@@ -2,7 +2,7 @@
 
 echo "Updateting Repo..."
 
-echo "Cleaning Up Prevouis Build..."
+echo "Cleaning Up Previous Build..."
 rm -rf tmpbingner
 rm -rf dists
 echo "Done"
