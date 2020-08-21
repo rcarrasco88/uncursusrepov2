@@ -3,7 +3,6 @@
 echo "Updateting Repo..."
 
 echo "Cleaning Up Previous Build..."
-rm -rf tmpbingner
 rm -rf dists
 echo "Done"
 
@@ -45,9 +44,13 @@ for dist in iphoneos-arm64/uncursus; do
     echo "Updateting GPGP Key..."
     
     gpg -abs -u 8A61B55ECE513045A1787EAEC07D48D85553E909 -o dists/${dist}/Release.gpg dists/${dist}/Release
+    
+    echo "Cleaning Up Unsed Files..."
+
+    rm -rf tmpbingner
 
     echo "All Done!"
-
+ 
 done
 
 #rm -rf tmp{bingner,odyssey,zebra,installer}/
