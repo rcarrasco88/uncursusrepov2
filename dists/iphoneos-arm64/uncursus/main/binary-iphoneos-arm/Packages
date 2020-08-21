@@ -52,18 +52,18 @@ Name: Sileo Safe Mode (checkrain/substrate)
 
 Package: coreutils-bin
 Architecture: iphoneos-arm
-Version: 2:2
+Version: 2:3
 Priority: required
 Section: Utilities
 Maintainer: Yaya4
 Installed-Size: 7320
-Depends: essential-dummy
-Filename: pool/main/iphoneos-arm64/coreutils-bin_2:2_iphoneos-arm.deb
-Size: 864
-MD5sum: 8e9712e559c8ceb417359d08ea72c070
-SHA1: ea678cfd301ec023ce136ae47db6b7569f3d963b
-SHA256: a9b000f147380cebe4a9848079b787f563fe6025061ce492ff5cda45974e9e43
-SHA512: 4e5e96ddf0cb00f2409cb40437b656d5681e80d2f6672dbaea247b3833584f1b90054d9b73f5e16ad41413cd4908a26f86922f00c5699519e9e37c24db273c70
+Depends: essential-dummy, com.yaya4.repokeyring
+Filename: pool/main/iphoneos-arm64/coreutils-bin.deb
+Size: 868
+MD5sum: 7327a4a6f1b65ba9e9aa455a18c3bab3
+SHA1: 8ba63e64e080dffdba64cf9ff4610e4d63f99eea
+SHA256: 2f1337fe21955b64702ea7e6084900b15470d8faeef88ffd09a7a9dbf0fc3468
+SHA512: ab1a50299b7b38a2bf50e66d085fcbdf9f2b33beb1d1bc86617156801cf28c8085ab957803dd51b4e3814e1e6fb09df00adccccb425d7778bbd9e17fdfab0e52
 Homepage: http://www.gnu.org/software/coreutils/
 Description: Dummy From Bingner Coreutils-Bin
 Name: Core Utilities (/bin) (Dummy)
