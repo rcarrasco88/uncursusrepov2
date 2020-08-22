@@ -31,8 +31,8 @@ for dist in iphoneos-arm64/uncursus; do
 	sed -i 's+./tmpbingner+https://apt.bingner.com/debs/1443.00/.+g' dists/${dist}/main/${binary}/Packages
     
     echo "Packing up The Package File..."
-	xz -c9 dists/${dist}/main/${binary}/Packages > dists/${dist}/main/${binary}/Packages.xz
-	zstd -q -c19 dists/${dist}/main/${binary}/Packages > dists/${dist}/main/${binary}/Packages.zst
+    xz -c9 dists/${dist}/main/${binary}/Packages > dists/${dist}/main/${binary}/Packages.xz
+    zstd -q -c19 dists/${dist}/main/${binary}/Packages > dists/${dist}/main/${binary}/Packages.zst
     gzip -c9 dists/${dist}/main/${binary}/Packages > dists/${dist}/main/${binary}/Packages.gz
     bzip2 -c9 dists/${dist}/main/${binary}/Packages > dists/${dist}/main/${binary}/Packages.bz2
     echo "Done"
