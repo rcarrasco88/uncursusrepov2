@@ -41,7 +41,7 @@ for dist in iphoneos-arm64/uncursus; do
 		dists/${dist}/main/${binary}/Release 2>/dev/null
 	apt-ftparchive release -c config/$(echo "${dist}" | cut -f1 -d '/').conf dists/${dist} > dists/${dist}/Release 2>/dev/null
 	
-    echo "Updateting GPGP Key..."
+    echo "Updating GPGP Key..."
     
     gpg -abs -u 8A61B55ECE513045A1787EAEC07D48D85553E909 -o dists/${dist}/Release.gpg dists/${dist}/Release
     
