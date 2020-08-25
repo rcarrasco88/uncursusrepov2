@@ -10,7 +10,7 @@ mkdir tmpbingner
 
 wget -q -O tmpbingner/Packages https://apt.bingner.com/dists/ios/1443.00/main/binary-iphoneos-arm/Packages
 
-for deb in $(grep "com.ex.substitute_0.1.15_iphoneos-arm" tmpbingner/Packages | cut -c 11-); do
+for deb in $(grep "com.ex.substitute_0.1.15_iphoneos-arm\|com.saurik.substrate.safemode_0.9.6004_iphoneos-arm" tmpbingner/Packages | cut -c 11-); do
 	wget -q -nc -P tmpbingner https://apt.bingner.com/${deb}
 done
 rm tmpbingner/Packages

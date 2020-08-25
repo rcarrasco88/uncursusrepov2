@@ -31,25 +31,6 @@ Description: Yaya4's Repo KeyRing
 Name: Yaya4 Repo Keyring
 Author: Yaya4
 
-Package: com.saurik.substrate.safemode
-Architecture: iphoneos-arm
-Version: 1.1-2
-Priority: optional
-Section: Tweaks
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Provides: us.diatr.sileorespring (=1.1)
-Depends: mobilesubstrate (>= 0.9.3667+38)
-Conflicts: us.diatr.sileorespring
-Replaces: us.diatr.sileorespring
-Filename: pool/main/iphoneos-arm64/com.saurik.substrate.safemode.deb
-Size: 20376
-MD5sum: dd061cea46f41f6ccef41fec07b3765e
-SHA1: 24478dcb9a92053d8094f1c33d152602619c653b
-SHA256: 771b20f4a6e3292e18ff65eeb01a0071ad366f4b748bebfbafcf97ab754a259f
-SHA512: 2cb37de959a77545d9955862db0e021f8f17be8fa7703c5db6b33a010427e6d92ee13afc73787d6f2a48730c2aea58d3e41a73a3ef7bc4283e09f7ac7b3febc5
-Description: Sileo Safe Mode for checkrain/substrate
-Name: Sileo Safe Mode (checkrain/substrate)
-
 Package: coreutils-bin
 Architecture: iphoneos-arm
 Version: 2:3
@@ -118,6 +99,21 @@ SHA512: e5a0f8393ce2bbb227390ec62822c7c4977351a7a776995cb3ed53293afaa14a176e7de5
 Description: New Curses 5 Dummy From Bingner
 Name: New Curses 5 (Dummy)
 
+Package: com.yaya4.sileorespringfix
+Architecture: iphoneos-arm
+Version: 1.0
+Section: System
+Maintainer: Yaya4
+Depends: org.coolstar.sileo, com.saurik.substrate.safemode (<<1.1-2)
+Filename: pool/main/iphoneos-arm64/sileorespringfix.deb
+Size: 1020
+MD5sum: f3753dc7b0271ec29140ef5a6b1662f5
+SHA1: 9aff3dca61a602d4e20d19ea9ecb96ed065dc116
+SHA256: ece2f02d5feb7e7c21a6ec539eb4cfc837c9b97320eb16dc10157d65633305ed
+SHA512: 7535479740e1d2a3b63cb90d6a553a71e0d164742c29b52936a4142e86dde61d6a2bd92f40dfbae1033b1f2fd13e9d34e3b57c9ba2850d2b5905c37c49f8f1c5
+Description: Add sileo respring capabilities
+Name: Sileo Respring Fix
+
 Package: xz
 Architecture: iphoneos-arm
 Version: 2:2
@@ -158,4 +154,25 @@ SHA512: fa0f57e89ce8d5f05b3f84fe3e478d81a3427163f574264aea3fd8936397095f0f83a7bc
 Description: Substrate substitute for code substitution
 Author: comex <comexk+da@gmail.com>
 Name: Substitute
+
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6004
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: https://apt.bingner.com/debs/1443.00/./com.saurik.substrate.safemode_0.9.6004_iphoneos-arm.deb
+Size: 22494
+MD5sum: 84d571c91b20c2a49ff5a300c9671b44
+SHA1: c995201714cf8a2b86ec7f2d9d703a6b4698fbbd
+SHA256: dee1738c0fafc2be7e7c4bc1a92bd0f629af221e2a6d83b3fb748d8edbbd6bdd
+SHA512: 4e5d0497c88501065966370bbbc1cb2e70b68e85ae8f22943814f6179d128fb2124abb600fecd56929fdf197b09cc4ad70763f86f4254955fc23dd445c80f6fc
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 
