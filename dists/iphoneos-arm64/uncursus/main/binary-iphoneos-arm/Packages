@@ -33,7 +33,7 @@ Name: Core Utilities (/bin) (Dummy)
 
 Package: essential-dummy
 Architecture: iphoneos-arm
-Version: 1.0.1
+Version: 1.0.1-3
 Priority: required
 Essential: yes
 Section: Essential
@@ -41,11 +41,11 @@ Maintainer: Yaya4
 Installed-Size: 0
 Depends: coreutils-bin (>= 1:0), xz (>= 1:0), libssl1.0 (>= 1:0), ncurses5-libs (>= 1:0), lzma, com.yaya4.repokeyring
 Filename: pool/main/iphoneos-arm64/essential-dummy.deb
-Size: 1104
-MD5sum: 19b712f315c0785bf02cdbe0ade09f2a
-SHA1: 8d3d054eb59869ae6bd11c172a55174276240650
-SHA256: a9671f1c353f6167db3ce1774453b3a303c045005dce1777f724e591d257ece9
-SHA512: 9b1732a9e45b6177d840b8e4236ebbd1e18d69b51187b858a7e6c1707a5dc3baac1c93ecd85706b4895c61410ece1a3b7b6e15684beb18b93f7a5a75f04e4ce1
+Size: 1096
+MD5sum: 1f5984febfe3ebf9b9a5e1e016235588
+SHA1: 4ef1719c2047d6446dfb09d695fa5d4d06c08d32
+SHA256: 11f301cdb66856ee9c447cc21235e3cd378f183dcaf0004a8759991661a787ea
+SHA512: 08e62520ad16c704c29e1efd3e32e03a9ff97f691824ba63c5cf3fa2088c145ab0beff574a01a24af9203e88e6076d943697df3e34147be72840edba40b19f42
 Description: Represents all dummy packages.
 Name: Essential Dummy
 
