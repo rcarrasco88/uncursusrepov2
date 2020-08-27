@@ -101,17 +101,18 @@ Name: New Curses 5 (Dummy)
 
 Package: com.yaya4.sileorespringfix
 Architecture: iphoneos-arm
-Version: 1.0
+Version: 1.1
 Section: System
 Maintainer: Yaya4
-Depends: org.coolstar.sileo, com.saurik.substrate.safemode (<<1.1-2)
+Depends: org.coolstar.sileo
 Filename: pool/main/iphoneos-arm64/sileorespringfix.deb
-Size: 1020
-MD5sum: f3753dc7b0271ec29140ef5a6b1662f5
-SHA1: 9aff3dca61a602d4e20d19ea9ecb96ed065dc116
-SHA256: ece2f02d5feb7e7c21a6ec539eb4cfc837c9b97320eb16dc10157d65633305ed
-SHA512: 7535479740e1d2a3b63cb90d6a553a71e0d164742c29b52936a4142e86dde61d6a2bd92f40dfbae1033b1f2fd13e9d34e3b57c9ba2850d2b5905c37c49f8f1c5
+Size: 1012
+MD5sum: 7c921ad6ee959994cc5fd6b896bd6992
+SHA1: b7157f3810c90f53db53339b8762af69870ca3da
+SHA256: dae90bf8ea1063359828c65a0dc2cdd01a0ec89fff9d27fffd01991cbe91a6e1
+SHA512: d0695b778370d40f45d042071df052514a95ea67225fb9afc0e133297d5464339b410d6973decc3fb1a0bda986335c3f210c7e601e93ab13314a050a7c1fee02
 Description: Add sileo respring capabilities
+Tag: purpose::backend
 Name: Sileo Respring Fix
 
 Package: xz
