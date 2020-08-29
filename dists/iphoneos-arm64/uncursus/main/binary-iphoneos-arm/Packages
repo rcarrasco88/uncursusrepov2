@@ -82,6 +82,22 @@ SHA512: 8a8ff78ed98ab054ad35909a540e023f0d5b14bf7fde7418747d7216b5b727ea7ad969c5
 Description: Dummy Package Of Bingner LZMA
 Name: LZMA Utils (Dummy)
 
+Package: ncurses
+Architecture: iphoneos-arm
+Version: 1:0
+Maintainer: Yaya4
+Depends: ncurses-bin, ncurses-term, libncursesw6
+Filename: pool/main/iphoneos-arm64/ncurses.deb
+Size: 712
+MD5sum: b7f1add64afd5dd9f65520c3da3fcc17
+SHA1: 2d0ae678fc9850db1a63ce74323c81f2f1d7c057
+SHA256: 12144aaab6d452dafb8689d05cee69b9a16df6565a29ddb2a919bb6c8b8fb265
+SHA512: f9ad44847d28cc0b1a9b50a97a47c535cd17144ab32d5576a8168de27adbc1be48346dc8937d8997800157b6b71e6865c3f184912f99351d8cbed4e695eee5a0
+Description: New Curses Meta Package
+Name: New Curses (Meta)
+Author: Yaya4
+Category: System
+
 Package: ncurses5-libs
 Architecture: iphoneos-arm
 Version: 1:2
