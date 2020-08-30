@@ -44,7 +44,7 @@ for dist in iphoneos-arm64/uncursus; do
     echo "Updating GPGP Key..."
     
     gpg -abs -u 8A61B55ECE513045A1787EAEC07D48D85553E909 -o dists/${dist}/Release.gpg dists/${dist}/Release
-### gpg -abs -u 8A61B55ECE513045A1787EAEC07D48D85553E909 --clearsign -o dists/${dist}/InRelease dists/${dist}/Release
+    gpg -abs -u 8A61B55ECE513045A1787EAEC07D48D85553E909 --clearsign -o dists/${dist}/InRelease dists/${dist}/Release
     
     echo "Cleaning Up Unused Files..."
 
